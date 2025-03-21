@@ -1,5 +1,5 @@
 # Repsitory Redame
--IFFEL_quest_rs는 AIFFEL의 퀘스트 및 리서치 실습을 위한 코드와 데이터를 관리하는 레포지토리입니다.
+-IFFEL_quest_rs는 AIFFEL의 퀘스트 및 리서치 실습을 위한 코드와 데이터를 관리하는 레포지토리입니다.  
 -레포지토리는 구조도는 아래와 같이 시간표에 맞추어 작성하였습니다
 ## repository 구조도
 
