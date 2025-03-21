@@ -5,7 +5,8 @@
 
 ```bash
 
-.
+AIFFEL_quest_rs
+|
 ├── Exploration
 │   ├── Ex01
 │   │   ├── .ipynb
@@ -73,3 +74,4 @@
 │       ├── .ipynb
 │       │  README.md
 │       └─.ipynb
+|── README.md
