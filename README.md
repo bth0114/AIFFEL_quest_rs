@@ -1,5 +1,5 @@
 
-## project repository 구조도
+## repository 구조도
 
 ```bash
 
