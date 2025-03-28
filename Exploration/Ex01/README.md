@@ -15,6 +15,22 @@
     - 해당 코드의 기능, 존재 이유, 작동 원리 등을 기술했는지 확인
     - 주석을 보고 코드 이해가 잘 되었는지 확인
         - 중요! 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부
+     import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    time_features = ['year', 'month', 'day', 'hour', 'minute', 'second']
+
+    plt.figure(figsize=(18, 12))
+
+    for i in range(len(time_features)):
+    col = time_features[i]
+    plt.subplot(2, 3, i + 1)
+    sns.countplot(data=train, x=col)
+    plt.title(f'Count by {col}')
+
+    plt.tight_layout()
+    plt.show()
+        
         
 - [ ]  **3. 에러가 난 부분을 디버깅하여 문제를 해결한 기록을 남겼거나
 새로운 시도 또는 추가 실험을 수행해봤나요?**
